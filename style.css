@@ -168,6 +168,13 @@ input, select, textarea { font-family: inherit; }
   font-size: 1.1rem;
   flex-shrink: 0;
 }
+
+.logo img{
+    height:48px;
+    width:auto;
+    display:block;
+}
+
 .logo-mark {
   width: 34px; height: 34px;
   background: var(--blue);
@@ -489,7 +496,9 @@ input, select, textarea { font-family: inherit; }
 .tag-1 { top: 40px; left: 0; }
 .tag-2 { bottom: 60px; right: 0; }
 
-.sobre-copy { }
+.sobre-copy {
+    margin-top: 20px;
+ }
 
 .sobre-text {
   color: var(--gray-400);
@@ -1321,3 +1330,4 @@ input, select, textarea { font-family: inherit; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
 }
+
